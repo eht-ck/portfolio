@@ -1,10 +1,15 @@
 import "./App.css";
 import Hero from "./components/hero";
-function App() {
-  return (<div>
-  <Hero/>
+import Navbar from "./components/navbar";
 
-  </div>);
+function App() {
+  return (
+    <div>
+      <Navbar/>
+
+       <Hero />
+    </div>
+  );
 }
 
 export default App;

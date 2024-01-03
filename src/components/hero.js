@@ -1,5 +1,7 @@
 import React from "react";
 import image from "../assests/image.jpg";
+import { FaLocationDot} from "react-icons/fa";
+
 
 const Hero = () => {
   return (
@@ -10,6 +12,12 @@ const Hero = () => {
         <span class="text-3xl">
           B.Tech<span class="text-[#915EFF]"> NIT Jalandhar</span> IT '25
           <br />
+
+        </span>
+        <span class="text-3xl">
+          <span class="text-[#915EFF]"> PATHSEEKERS, BEAS</span> '21
+          <br />
+          
         </span>
         <span class="text-2xl">
           I'm a full-stack developer exploring the field of cloud and devops.
@@ -23,6 +31,9 @@ const Hero = () => {
             alt="Chandresh Kumar"
           />
         </figure>
+        <br/>
+        <div class="text-lg">Beas, Punjab<span class="text-[#915EFF]"> [INDIA]</span></div>
+
       </div>
     </div>
   );

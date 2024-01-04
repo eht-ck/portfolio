@@ -1,4 +1,5 @@
 import "./App.css";
+import TechStack from "./components/TechStack";
 import Contact  from "./components/contact";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
@@ -10,10 +11,20 @@ function App() {
     <div>
       <Navbar/>
        <Hero />
+       <TechStack/>
        <h2 className="text-center text-4xl font-bold mt-6 mb-2">OPEN SOURCE CONTRIBUTION</h2>
        <VedVyasFoundationComponent/>
-       <Contact/>
+       {/* <h2 className="text-center text-4xl font-bold mt-6 mb-2">PROJECTS</h2>/ */}
+        <div className="max-w-screen-lg mx-auto">
+      <div className="text-4xl text-center font-bold my-8">
+        PROJECTS
+      </div>
+       <div className="flex justify-center items-center">
+        <ProjectsComponent />
+      </div>
     </div>
+      
+     </div>
   );
 }
 

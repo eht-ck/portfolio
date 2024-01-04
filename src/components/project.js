@@ -3,7 +3,7 @@
 import React from 'react';
 const ProjectCard = ({ title, techStack, date, description }) => {
   return (
-    <div className=" hidden md:w-1/3 p-4 mb-4 mt-4 mr-1 ml-1 rounded-lg overflow-hidden shadow-lg bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white hover:shadow-xl transition duration-300 border border-purple-600">
+    <div className=" md:w-1/3 p-4 mb-4 mt-4 mr-1 ml-1 rounded-lg overflow-hidden shadow-lg bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white hover:shadow-xl transition duration-300 border border-purple-600">
       <h2 className="text-xl font-bold m-2">{title}</h2>
       <p className="text-gray-200">{techStack}</p>
       <p className="text-gray-200">{date}</p>

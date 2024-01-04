@@ -12,7 +12,7 @@ function App() {
       <Navbar/>
        <Hero />
        <TechStack/>
-       <h2 className="text-center text-4xl font-bold mt-6 mb-2">OPEN SOURCE CONTRIBUTION</h2>
+       <h2 className="text-center text-4xl font-bold mt-6 mb-4">OPEN SOURCE CONTRIBUTION</h2>
        <VedVyasFoundationComponent/>
        {/* <h2 className="text-center text-4xl font-bold mt-6 mb-2">PROJECTS</h2>/ */}
         <div className="max-w-screen-lg mx-auto">

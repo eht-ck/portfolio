@@ -61,7 +61,7 @@ const Contact = () => {
   return (
     <form ref={formRef} onSubmit={handleSubmit} className="max-w-md mx-auto p-4">
       <div className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2">
+        <label className="block text-xl font-bold mb-2 text-[#915EFF]">
           Name
         </label>
         <input
@@ -73,7 +73,7 @@ const Contact = () => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2">
+        <label className="block text-[#915EFF] text-xl font-bold mb-2">
           Email
         </label>
         <input
@@ -85,7 +85,7 @@ const Contact = () => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-sm font-bold mb-2">
+        <label className="block text-[#915EFF] text-xl font-bold mb-2">
           Message
         </label>
         <textarea
@@ -95,13 +95,17 @@ const Contact = () => {
           className="w-full p-2 border rounded-md"
         ></textarea>
       </div>
-      <button
-        type="submit"
-        disabled={loading}
-        className={`bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300 ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
-      >
-        {loading ? 'Sending...' : 'Send'}
-      </button>
+      <div style={{  }}>
+  <button
+    type="submit"
+    disabled={loading}
+    className={`bg-[#915EFF] text-white py-2 rounded-md hover:bg-[#8453ee] transition duration-300 ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
+    style={{ width: '100%' }}
+  >
+    {loading ? 'Sending...' : 'Send'}
+  </button>
+</div>
+
     </form>
   );
 };

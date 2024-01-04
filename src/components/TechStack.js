@@ -2,6 +2,9 @@ import React from 'react';
 
 const TechStack = () => {
     return (
+        <div>
+        <h1 className="text-4xl flex justify-center items-center h-full font-bold mb-4">TECH STACK</h1>
+
         <div className="flex justify-center items-center h-full">
 <div className="p-4 border border-gray-300 hover:border-[#915EFF] rounded-lg">
                 <div className="flex mb-4 text-xl mr-2">
@@ -34,6 +37,7 @@ const TechStack = () => {
                     <span>Docker, Kubernetes</span>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

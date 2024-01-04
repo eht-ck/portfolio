@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectsComponent from "../components/project";
 import Navbar from "../components/navbar";
+import Footer from "../components/Footer";
 
 const Projects = () => {
   return (
@@ -15,6 +16,7 @@ const Projects = () => {
         <ProjectsComponent />
       </div>
     </div>
+    <Footer/>
     </div>
     
   );

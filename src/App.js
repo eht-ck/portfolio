@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import TechStack from "./components/TechStack";
 import Contact  from "./components/contact";
 import Hero from "./components/hero";
@@ -22,6 +23,7 @@ function App() {
        <div className="flex justify-center items-center">
         <ProjectsComponent />
       </div>
+      <Footer/>
     </div>
       
      </div>

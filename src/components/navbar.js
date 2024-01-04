@@ -3,7 +3,7 @@ import { FaGithub, FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="p-4 mb-2">
+    <nav className="p-4 mb-2 mt-1.5">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="  font-bold text-lg mb-2 md:mb-0"><a href="/" className="text-[#915EFF] hover:text-white">CK'S Portfolio</a></div>
 

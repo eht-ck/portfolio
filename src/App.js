@@ -6,12 +6,15 @@ import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 import VedVyasFoundationComponent from "./components/opensource";
 import ProjectsComponent from "./components/project";
-
+import JobsTimelineComponent from "./components/JobsExperienceComponent";
 function App() {
   return (
     <div>
       <Navbar/>
        <Hero />
+       {/* <br/> */}
+       <JobsTimelineComponent/>
+        <br/>
        <TechStack/>
        <h2 className="text-center text-4xl font-bold mt-12 mb-4">OPEN SOURCE CONTRIBUTION</h2>
        <VedVyasFoundationComponent/>

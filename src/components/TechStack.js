@@ -16,7 +16,7 @@ const TechStack = () => {
 
           <div className="flex mb-4 text-xl mr-2">
             <h2 className="font-bold text-[#915EFF]">Backend:</h2>
-            <span>Nest.js, Express.js, Django</span>
+            <span>FastAPI, Nest.js, Express.js, Django</span>
           </div>
 
           <div className="flex mb-4 text-xl mr-2">
@@ -31,12 +31,12 @@ const TechStack = () => {
 
           <div className="flex mb-4 text-xl mr-2">
             <h2 className="font-bold text-[#915EFF]">Programming Languages:</h2>
-            <span>Python, C, C++, Java, R</span>
+            <span>Python, C, C++, Java, R, JS, TypeScript</span>
           </div>
 
           <div className="flex mb-4 text-xl mr-2">
             <h2 className="font-bold text-[#915EFF]">Other Technologies:</h2>
-            <span>Docker, Kubernetes</span>
+            <span>Azure, AWS, Docker, Kubernetes</span>
           </div>
         </div>
       </div>

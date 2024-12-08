@@ -2,15 +2,14 @@ import React, { useState, useEffect } from "react";
 import { FaGithub, FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
-  const lastUpdated = "December 8, 2024"; // Update dynamically if needed.
+  const lastUpdated = "December 8, 2024"; 
   const [showPopup, setShowPopup] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopup(false);
-    }, 3500); // Popup disappears after 5 seconds
-
-    return () => clearTimeout(timer); // Cleanup the timer
+    }, 3500); 
+    return () => clearTimeout(timer); 
   }, []);
 
   return (

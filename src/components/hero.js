@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../assests/image.jpg";
-import { FaLocationDot} from "react-icons/fa";
+// import { FaLocationDot} from "react-icons/fa";
 
 
 const Hero = () => {
